@@ -1,0 +1,12 @@
+npm install -g typescript
+
+tsc sandbox.ts -w  // for watching it
+
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sandbox.js",
+    "dev": "nodemon script2"
+  },
+
+
+tsc --init
